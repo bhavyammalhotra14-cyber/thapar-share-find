@@ -28,3 +28,6 @@ use the editor.
   own key and store it in Secrets.
 - **Secrets.** Lovable manages them. Do not put secret values in the repo.
 <!-- LOVABLE:END -->
+
+## App architecture
+- Keep the campus board as a browser-only prototype with listing state and pure filtering/status helpers in a browser-safe module; this avoids implying listings persist or are shared without a backend.
